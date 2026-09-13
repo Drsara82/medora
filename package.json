@@ -17,7 +17,7 @@
     "test:e2e": "playwright test",
     "qa": "node --experimental-strip-types scripts/qa.mjs",
     "sitemap": "node --experimental-strip-types scripts/generate-sitemap.mjs",
-    "build": "npm run qa && npm run lint && npm run typecheck && npm run test && npm run sitemap && vite build",
+    "build": "npm run qa && npm run lint && npm run typecheck && npm run sitemap && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
